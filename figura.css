@@ -1,0 +1,42 @@
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+.container {
+  margin: 0 auto;
+  width: 98%;
+  height: 98vh;
+}
+
+.item1 {
+  padding: 1rem;
+  border: 1px solid black;
+  border-left: none;
+  border-top: none;
+}
+.item2 {
+  padding: 1rem;
+  border: 1px solid black;
+  border-top: none;
+  border-right: none;
+}
+.item3 {
+  padding: 1rem;
+  border: 1px solid black;
+  border-bottom: none;
+  border-left: none;
+}
+.item4 {
+  padding: 1rem;
+  border: 1px solid black;
+  border-bottom: none;
+  border-right: none;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+}
